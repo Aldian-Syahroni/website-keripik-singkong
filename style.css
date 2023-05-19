@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #ffa500, #ffff00);
+  max-width: 1236px;
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+header {
+  position: fixed;
+  width: 65%;
+}
+.head {
+  display: flex;
+  background: rgba(0, 0, 0, 0.75);
+}
+.logo {
+  width: 100%;
+  height: 90px;
+  float: left;
+}
+.logo img {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 100px;
+  height: 50px;
+}
+.hamburger {
+  display: none;
+}
+.navbar {
+  float: right;
+}
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-size: 17px;
+  font-weight: bold;
+  height: 50px;
+  margin-right: 60px;
+  color: white;
+}
+.container {
+  background-image: url("images-background.jpeg");
+  background-size: cover;
+  height: 550px;
+}
+.content-hero {
+  justify-content: left;
+  align-items: center;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+.content-hero h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.content-hero p {
+  font-size: 21px;
+  width: 450px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.btn {
+  text-decoration: none;
+  background-color: rgba(255, 162, 0, 0.8);
+  color: white;
+  padding: 20px 60px 20px 60px;
+  margin-top: 100px;
+  margin-left: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0.5em 0.5em 0.5em #000004;
+}
+.filosofi-content {
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding-top: 100px;
+}
+.filosofi-content h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.filosofi-content p {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.product-wrapper {
+  padding-top: 200px;
+}
+.content-varrian {
+  text-align: center;
+}
+.content-varrian h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.varrian-list {
+  list-style: none;
+}
+.varrian-list img {
+  width: 100%;
+  height: 70%;
+  border-radius: 5%;
+}
+.varrian-rasa {
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+}
+.varrian-product {
+  height: 700px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 0;
+}
+.map {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+iframe {
+  width: 500px;
+  height: 300px;
+}
+.address p {
+  letter-spacing: 1.2px;
+}
+.sosmed li {
+  list-style: none;
+}
+.sosmed ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.bi {
+  font-size: 40px;
+  padding-right: 30px;
+}
+.bi-facebook {
+  color: blue;
+}
+.bi-instagram {
+  color: purple;
+}
+.bi-whatsapp {
+  color: green;
+}
+.coment {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  gap: 70px;
+  padding-top: 60px;
+  background-color: rgba(255, 171, 0, 0.44);
+  height: 500px;
+}
+#send {
+  background-color: black;
+  color: white;
+}
+#send:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+.commentar {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.coment-netizen input,
+textarea {
+  width: 350px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid orange;
+}
+.colom-coment h3 {
+  text-align: center;
+  justify-content: center;
+}
+.colom-coment li {
+  list-style-type: "# ";
+}
+.colom-coment {
+  width: 450px;
+}
+footer {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.footers {
+  display: flex;
+}
+.foot {
+  float: right;
+}
+.footers .logo {
+  margin-top: 40px;
+}
+.foot-list {
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  list-style: none;
+  font-size: 16px;
+  margin-right: 30px;
+  color: white;
+  margin-top: 50px;
+}
+.copy {
+  padding-left: 20px;
+  color: white;
+  text-align: center;
+}
+.foot-list li {
+  padding-bottom: 5px;
+}
